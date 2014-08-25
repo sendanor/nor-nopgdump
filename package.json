@@ -1,0 +1,36 @@
+{
+  "name": "nor-nopgdump",
+  "version": "0.1.0",
+  "description": "NoPG database dump and restore utility",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nopgdump": "src/index.js",
+    "nor-nopgdump": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sendanor/nor-nopgdump.git"
+  },
+  "keywords": [
+    "nopg",
+    "dump",
+    "restore",
+    "database"
+  ],
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "nor-debug": ">= 0.1.41 < 0.2.0",
+    "nor-is": ">= 0.1.13 < 0.2.0",
+    "nor-nopg": ">= 0.1.71 < 0.2.0",
+    "minimist": ">= 1.1.0  < 1.2.0",
+    "q": ">= 1.0.1  < 1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sendanor/nor-nopgdump/issues"
+  },
+  "homepage": "https://github.com/sendanor/nor-nopgdump"
+}
