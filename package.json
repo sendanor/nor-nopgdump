@@ -1,6 +1,6 @@
 {
   "name": "nor-nopgdump",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "NoPG database dump and restore utility",
   "main": "src/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "nor-debug": ">= 0.1.43 < 0.2.0",
     "nor-is": ">= 0.1.14 < 0.2.0",
-    "nor-nopg": ">= 0.1.85 < 0.2.0",
+    "nor-nopg": ">= 0.1.86 < 0.2.0",
     "minimist": ">= 1.1.0  < 1.2.0",
     "q": ">= 1.0.1  < 1.1.0"
   },
